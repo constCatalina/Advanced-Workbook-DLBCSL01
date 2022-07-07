@@ -1,0 +1,16 @@
+# Coded by Catalina Ionascu (Matriculation: 32100151 for Advanced Workbook DLBCSL01)
+# Task 5 (b)
+# This program returns the number of exams taken by a distance learning student. 
+import sys
+examsTestingCenter = int(input ("Please enter how many exams have you attended at the Testing Center: "))
+examsOnline = int(input ("Please enter how many exams have you attended online: "))
+totalExams = examsTestingCenter + examsOnline
+credits = totalExams*5
+restCredits = 180 - credits
+if examsTestingCenter == 0 and examsOnline == 0:
+    print ("You have not written any exam yet.")
+elif examsTestingCenter < 0 or examsOnline < 0:
+    sys.exit ("You entered an invalid exam number for either Test Center or Online Exams. ")
+else:
+    print ("You have written " + str(totalExams) + " exams.\nIf you passed all exams, you have now " + str(credits) + " credits. You need to gather " + str(restCredits) + " more credits in order to graduate." )
+    

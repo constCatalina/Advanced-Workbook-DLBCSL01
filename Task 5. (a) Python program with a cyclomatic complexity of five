@@ -1,0 +1,19 @@
+
+# Coded by Catalina Ionascu (Matriculation: 32100151 for Advanced Workbook DLBCSL01)
+# Cyclomatic complexity of five
+# This program returns the number of exams taken by a distance learning student. 
+import sys
+try:
+    examsTestingCenter = int(input ("Please enter how many exams have you attended at the Testing Center: "))
+    examsOnline = int(input ("Please enter how many exams have you attended online: "))
+except:
+    sys.exit ("Error. You have not entered an integer.")
+    
+totalExams = examsTestingCenter + examsOnline
+
+if examsTestingCenter == 0 and examsOnline == 0:
+    print ("You have not written any exam yet.")
+elif examsTestingCenter < 0 or examsOnline < 0:
+    sys.exit ("You entered that you have written " + str(examsTestingCenter) + " exams in the Testing Center and " + str(examsOnline) + " exams online. Please restart the program and enter valid, positive value. ")
+else:
+    print ("You have written " + str(totalExams) + " exams.")

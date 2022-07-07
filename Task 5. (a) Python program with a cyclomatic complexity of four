@@ -1,4 +1,5 @@
 # Coded by Catalina Ionascu (Matriculation: 32100151 for Advanced Workbook DLBCSL01)
+# Cyclomatic complexity of four
 # This program returns the number of exams taken by a distance learning student. 
 examsTestingCenter = int(input ("Please enter how many exams have you attended at the Testing Center: "))
 examsOnline = int(input ("Please enter how many exams have you attended online: "))

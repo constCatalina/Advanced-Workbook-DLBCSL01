@@ -9,7 +9,6 @@ k6 = [3300]
 k7 = [1230, 2500]
 k8 = [4200]
 govEmpIncome = [k1, k2, k3, k4, k5, k6, k7, k8]
-test = [1]
 position = 0
 govEmpIncomeHalfed = []
 

@@ -1,0 +1,19 @@
+# Coded by Catalina Ionascu (Matriculation: 32100151 for Advanced Workbook DLBCSL01)
+# Mergesort (1) Merge-sorting each (new) sequence with the next sequence. 
+k1 = [2000, 2000]
+k2 = [1520, 3200]
+k3 = [2300, 3000]
+k4 = [2700, 3500]
+k5 = [3400, 3600]
+k6 = [3300]
+k7 = [1230, 2500]
+k8 = [4200]
+govEmpIncome = [k1, k2, k3, k4, k5, k6, k7, k8]
+position = 0
+k = []
+for emp in govEmpIncome:
+    k += govEmpIncome[position]
+    k.sort()
+    position= position + 1
+    
+print (k)

@@ -12,7 +12,6 @@ govEmpIncome = [k1, k2, k3, k4, k5, k6, k7, k8]
 position = 0
 govEmpIncomeHalfed = []
 
-#k12 = govEmpIncome[position]+govEmpIncome[position+1]
 while len(govEmpIncome) > 1:
     for k in govEmpIncome:
         if position >= len(govEmpIncome)-1:

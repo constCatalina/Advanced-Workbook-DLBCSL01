@@ -1,5 +1,5 @@
 # Coded by Catalina Ionascu (Matriculation: 32100151 for Advanced Workbook DLBCSL01)
-# Task 4 (b) Merge the first sequence with the second, the third with the fourth, and so on. If we start with 𝑘 sequences, after the pairwise merges, we are left with 𝑘/2 of them. Repeat until we are left with one sequence. 
+# Mergesort (2) Successive pairwise merge-sorting. 
 k1 = [2000, 2000]
 k2 = [1520, 3200]
 k3 = [2300, 3000]
